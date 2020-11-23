@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Decorator</string>
+    <string name="colombia">colombia</string>
+    <string name="sumatra">sumatra</string>
+    <string name="espresso">espresso</string>
+    <string name="deca">deca</string>
+    <string name="caramel">caramel</string>
+    <string name="chantilly">chantilly</string>
+    <string name="chocolat">chocolat</string>
+    <string name="lait">lait</string>
+    <string name="decorateurs">Decorateurs</string>
+    <string name="boissons">Boissons</string>
+    <string name="vide">...</string>
+    <string name="MAD0">00.00 MAD</string>
+</resources>
