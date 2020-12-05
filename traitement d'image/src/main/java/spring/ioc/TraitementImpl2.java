@@ -1,6 +1,13 @@
+package spring.ioc;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
+@Component("impl2")
 public class TraitementImpl2 implements ITraitement {
+
     public long traiter(int[][] image) {
         System.out.println("From : TraitementImpl2");
         System.out.println(Arrays.deepToString(image));
