@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-02-08T12:45:08</date>
+  <millis>1612784708717</millis>
+  <sequence>0</sequence>
+  <logger>AOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>App</class>
+  <method>main_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>methode : void App.main(String[])</message>
+</record>
+<record>
+  <date>2021-02-08T12:45:08</date>
+  <millis>1612784708758</millis>
+  <sequence>1</sequence>
+  <logger>AOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>AOP.Test</class>
+  <method>t_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>methode : void AOP.Test.t()</message>
+</record>
+<record>
+  <date>2021-02-08T12:45:08</date>
+  <millis>1612784708759</millis>
+  <sequence>2</sequence>
+  <logger>AOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>AOP.Test</class>
+  <method>t_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>duree (ms): 0</message>
+</record>
+<record>
+  <date>2021-02-08T12:45:08</date>
+  <millis>1612784708759</millis>
+  <sequence>3</sequence>
+  <logger>AOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>AOP.Test</class>
+  <method>t_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>end</message>
+</record>
+<record>
+  <date>2021-02-08T12:45:08</date>
+  <millis>1612784708759</millis>
+  <sequence>4</sequence>
+  <logger>AOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>App</class>
+  <method>main_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>duree (ms): 2</message>
+</record>
+<record>
+  <date>2021-02-08T12:45:08</date>
+  <millis>1612784708759</millis>
+  <sequence>5</sequence>
+  <logger>AOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>App</class>
+  <method>main_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>end</message>
+</record>
+</log>
